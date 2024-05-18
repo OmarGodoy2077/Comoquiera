@@ -1,2 +1,5 @@
-package org.example.Pilas;public class PilaLista {
+package org.example.Pilas;
+
+public class PilaLista {
+
 }

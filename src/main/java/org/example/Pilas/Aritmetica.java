@@ -1,6 +1,6 @@
-package umg.edu.gt.Evaluacion;
+package org.example.Pilas;
 
-import umg.edu.gt.PilaLineal;
+import org.example.Pilas.PilasLineal;
 
 public class Aritmetica {
 
@@ -8,7 +8,7 @@ public class Aritmetica {
 
     //evaluar una expresión aritmética
     public static int evaluar(String expresion) throws Exception {
-        PilaLineal operandos = new PilaLineal();
+        PilasLineal operandos = new PilaLineal();
         PilaLineal operadores = new PilaLineal();
         int resultado = 0;
         int operando1, operando2;
