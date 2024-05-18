@@ -8,8 +8,8 @@ public class Aritmetica {
 
     //evaluar una expresión aritmética
     public static int evaluar(String expresion) throws Exception {
-        PilasLineal operandos = new PilaLineal();
-        PilaLineal operadores = new PilaLineal();
+        PilasLineal operandos = new PilasLineal();
+        PilasLineal operadores = new PilasLineal();
         int resultado = 0;
         int operando1, operando2;
         char operador;
